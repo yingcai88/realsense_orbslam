@@ -1,0 +1,10 @@
+<launch>
+
+<node pkg="rs_orbslam" type="rs_orbslam_node" name="rs_orbslam" output="screen">
+    <remap from="/camera/rgb/image_raw" to="/camera2/rgb/image_raw"/>
+    <remap from="/camera/depth/image_raw" to="/camera2/depth/image_raw"/>
+    <rosparam command="load" file="$(find rs_orbslam)/launch/rs_orbslam.yaml" ns=""/>
+</node>
+
+</launch>
+

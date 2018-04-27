@@ -1,0 +1,9 @@
+# %YAML:1.0
+# WARNING: AVOID any TAB in this file, otherwise there will be error.
+# parameters for SLAM
+
+voc_path: "~/ORB_SLAM2/Vocabulary/ORBvoc.txt"
+xml_path: "~/config/realsense2.yaml"
+
+image_skip: 2
+
