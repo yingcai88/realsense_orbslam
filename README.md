@@ -1,4 +1,4 @@
-# rs_orb_slam for using ORB_SLAM2 on realsense camera 
+# rs_orb_slam for using SLAM on realsense camera 
 
 ## 0. Install realsense driver package
 * [librealsense] http://wiki.ros.org/librealsense - The realsense driver library
