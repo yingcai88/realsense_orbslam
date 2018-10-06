@@ -10,6 +10,13 @@ Camera.fy: 610.6
 Camera.cx: 345.3
 Camera.cy: 242
 
+IR.fx: 456.8
+IR.fy: 456.8
+IR.cx: 255.2
+IR.cy: 180.4
+
+Delta_rgb_ir: 0.05915
+
 Camera.k1: 0
 Camera.k2: 0
 Camera.p1: 0
